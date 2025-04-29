@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Dashboard</title>
+    </head>
+    <body>
+        {% extends 'base.html' %}
+
+        {% block content %}
+          <h1>Dashboard Overview</h1>
+          
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card text-white bg-primary mb-3">
+                <div class="card-header">Total Customers</div>
+                <div class="card-body">
+                  <h5 class="card-title">{{ total_customers }}</h5>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-md-4">
+              <div class="card text-white bg-success mb-3">
+                <div class="card-header">Active Members</div>
+                <div class="card-body">
+                  <h5 class="card-title">{{ active_members }}</h5>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-md-4">
+              <div class="card text-white bg-danger mb-3">
+                <div class="card-header">Expired Memberships</div>
+                <div class="card-body">
+                  <h5 class="card-title">{{ expired_memberships }}</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endblock %}
+        
+        
+    </body>
+</html>
