@@ -36,5 +36,3 @@ A web-based Customer Relationship Management (CRM) system designed for gym owner
     python manage.py runserver
     ```
 
-## License:
-[MIT License](LICENSE)
