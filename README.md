@@ -18,7 +18,7 @@ A web-based Customer Relationship Management (CRM) system designed for gym owner
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/gym-crm.git
+    git clone https://github.com/Dev-Aryan-Saxena/gym-crm.git
     ```
 
 2. Install dependencies:
